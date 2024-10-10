@@ -22,6 +22,8 @@ body{
     /* border: 1px solid red; */
     color: white;
     background-color: rgb(97, 97,97);
+    position: sticky;
+    top: 0px;
 }
 
 #header .texto-infobar-container {
@@ -84,9 +86,37 @@ body{
 
 /* ajustes layout section section-servicos */
 #section-bemvindo .container .section-bemvindo-conteudo{
+    padding-top: 70px;
     display: flex;
     justify-content: center;
+
+    text-align: center;
     font-size: 40px;
+}
+
+.section-bemvindo-conteudo .texto-sobre{
+    padding-top: 15px;
+    padding-bottom: 70px;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+/* ajustes layout section section-cards */
+.cards{
+    display: flex;
+    justify-content: center;
+
+    justify-content: space-evenly;
+}
+
+.cards .cards-fieldset fieldset{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    width: 360px;
+    height: 434px;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
 }
 
 /* ajustes em imagens */
