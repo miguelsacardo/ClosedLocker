@@ -110,13 +110,21 @@ body{
     justify-content: space-evenly;
 }
 
-.cards .cards-fieldset fieldset{
+.cards-conteudo p{
+    padding-top:10px ;
     text-align: center;
     font-family: "Roboto", sans-serif;
-    width: 360px;
-    height: 434px;
+
+} 
+.cards-conteudo .cards-img img{
+    width: 100%;
+    height: 100%;
+
     border-radius: 10px;
-    padding: 20px 20px 20px 20px;
+}
+.cards-img{
+    width: 360px;
+    height: 200px;
 }
 
 /* ajustes em imagens */
