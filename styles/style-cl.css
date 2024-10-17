@@ -85,16 +85,13 @@ body{
 }
 
 /* ajustes layout section section-servicos */
-#section-bemvindo .container .section-bemvindo-conteudo{
+.section-servicos-conteudo .conteudo-texto{
     padding-top: 70px;
-    display: flex;
-    justify-content: center;
-
     text-align: center;
     font-size: 40px;
 }
 
-.section-bemvindo-conteudo .texto-sobre{
+.section-servicos-conteudo .texto-sobre{
     padding-top: 15px;
     padding-bottom: 70px;
 
@@ -102,12 +99,26 @@ body{
     font-size: 20px;
 }
 
+/*ajustes layout clientes */
+
+.clientes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 70px;
+}
+
+.clientes .empresas-clientes{
+    /* padding-top:20px; */
+    font-size: 30px;
+}
 /* ajustes layout section section-cards */
 .cards{
     display: flex;
     justify-content: center;
-
     justify-content: space-evenly;
+
+    /* padding-bottom: 70px;     */
 }
 
 .cards-conteudo p{
@@ -122,10 +133,20 @@ body{
 
     border-radius: 10px;
 }
+
+.cards-conteudo{
+    transition: 0.4s;
+}
+.cards-conteudo:hover{
+    transform: scale(1.05);
+}
+
 .cards-img{
     width: 360px;
     height: 200px;
 }
+
+
 
 /* ajustes em imagens */
 #header .container-img{
