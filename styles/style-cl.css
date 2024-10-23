@@ -106,12 +106,12 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     column-gap: 70px;
-}
+    padding-bottom: 70px;
 
-.clientes .empresas-clientes{
-    /* padding-top:20px; */
     font-size: 30px;
 }
+
+
 /* ajustes layout section section-cards */
 .cards{
     display: flex;
@@ -145,6 +145,26 @@ body{
     width: 360px;
     height: 200px;
 }
+
+/* layout footer */
+.site-footer{
+    font-family: "Prata", serif;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+
+    background-color: rgb(97, 97,97);
+    padding-top: 30px;
+}
+
+.container .footer-informacao{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 
 
 
